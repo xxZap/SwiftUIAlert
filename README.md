@@ -34,6 +34,7 @@ Here's the list of the awesome features `SwiftUIAlert` has:
 - [X] `Combine` friendly: just listen for changes and communicate them to the `AlertController`
 - [X] `MVVM` friendly: handle alerts business logic directly from your viewModels and keep your views agnostic
 - [ ] feedbacks
+- [ ] multiple alerts support
 
 ## The Problem
 
