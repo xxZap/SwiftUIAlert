@@ -27,7 +27,7 @@ https://github.com/xxZap/SwiftUIAlert.git
 - Swift 5
 
 ## Feature
-Here's the list of the awesome features `AlertKit` has:
+Here's the list of the awesome features `SwiftUIAlert` has:
 - [X] clean way to show single or multiple `Alert`s in SwiftUI
 - [X] you don't have to add `Alert`s as view modifiers any more
 - [X] blends in perfectly with all other SwiftUI functioanlity and principles
