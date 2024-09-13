@@ -35,6 +35,33 @@ Here's the list of the awesome features `SwiftUIAlert` has:
 - [X] `MVVM` friendly: handle alerts business logic directly from your viewModels and keep your views agnostic
 - [ ] feedbacks
 
+## The Problem
+
+In `SwiftUI` alerts are added as view modifiers with a bit of help from `@State`:
+
+``` swift
+struct MyView: View {
+
+    @State private var isSwiftUIAlert1Presented = false
+    @State private var isSwiftUIAlert2Presented = false
+    
+    var body: some View {
+        Button("SwiftUI Alert") {
+            isSwiftUIAlert1Presented = true
+        }
+        .alert(isPresented: $isSwiftUIAlert1Presented) {
+            Alert(title: Text("SwiftUI Alert 1"))
+        }
+        .alert(isPresented: $isSwiftUIAlert2Presented) {
+            Alert(title: Text("SwiftUI Alert 2"))
+        }
+        ...
+    }
+}  
+```
+
+This will get ugly really quickly if you're trying to add multiple `Alert`s on a view. Lots of `@State`s with `Alert`s scattered all around your view 💩
+
 ## License
 [Apache License 2.0][license]. See Apache Software Foundation's [licensing FAQ][licensing-faq]
 
