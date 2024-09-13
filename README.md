@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-A comprehensive Swift Package solution for SwiftUI alerts management in Apple projects
+A comprehensive Swift Package solution for SwiftUI alerts management in iOS projects
 </div>
 
 <p align="center">
