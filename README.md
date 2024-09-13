@@ -16,3 +16,9 @@ A comprehensive Swift Package solution for SwiftUI alerts management in Apple pr
 </p>
 
 🚧 work in progress
+
+## License
+[Apache License 2.0][license]. See Apache Software Foundation's [licensing FAQ][licensing-faq]
+
+[license]: LICENSE.txt
+[licensing-faq]: https://www.apache.org/licenses/LICENSE-2.0
