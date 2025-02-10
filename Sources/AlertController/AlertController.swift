@@ -10,7 +10,9 @@ import Foundation
 
 /// The main actor who shows or hide the alerts.
 public class AlertController: ObservableObject {
-    @Published var alert: BaseAlert?
+    @Published public var alert: BaseAlert?
+
+    public init() { }
 }
 
 // MARK: - Key
@@ -21,7 +23,7 @@ public struct AlertControllerKey: EnvironmentKey {
 }
 
 extension EnvironmentValues {
-    var alertController: AlertController {
+    public var alertController: AlertController {
         get { self[AlertControllerKey.self] }
         set { self[AlertControllerKey.self] = newValue }
     }
