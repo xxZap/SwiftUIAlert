@@ -22,11 +22,11 @@ Add SwiftUIAlert as a Swift Package in Xcode 11.0 or later, `select File > Swift
 https://github.com/xxZap/SwiftUIAlert.git
 ```
 
-## Requirements
+## 📋 Requirements
 - iOS 15+
 - Swift 5
 
-## Feature
+## ✅ Feature
 Here's the list of the awesome features `SwiftUIAlert` has:
 - [X] clean way to show single or multiple `Alert`s in SwiftUI
 - [X] you don't have to add `Alert`s as view modifiers any more
@@ -38,7 +38,7 @@ Here's the list of the awesome features `SwiftUIAlert` has:
 - [ ] pool of alerts support, to add/dequeue all the needed alerts once at a time
 - [ ] solve SwiftUI limitation around lack of completion show/hide alert that forces us a programmatic delay for consecutive alerts
 
-## The Problem
+## 🚨 The Problem
 
 In `SwiftUI` alerts are added as view modifiers with a bit of help from `@State`:
 
@@ -60,13 +60,13 @@ struct MyView: View {
         }
         ...
     }
-}  
+}✏
 ```
 
 This will get ugly really quickly if you're trying to add multiple `Alert`s on a view. Lots of `@State`s with `Alert`s scattered all around your view 💩
 
 
-## How SwiftUIAlert works
+## ✏️ How SwiftUIAlert works
 Simply register an `AlertController` instance on the root of a navigation. This will ensure an `@Environment` accessibility to all of the subviews all along the same navigation.
 
 ```swift
@@ -162,7 +162,8 @@ You can handle multiple alerts directly on your ViewModel.
 🎉 As an extra, this library exposes an alert with an integrated `TextField`!
 
 
-🎁 Please, to clarify all your doubts you can see the dedicated Example Project [https://github.com/xxZap/SwiftUIAlertDemo](SwiftUIAlertDemo)
+## 🧰 Demo Project
+Please, to clarify all your doubts you can see the dedicated Example Project [https://github.com/xxZap/SwiftUIAlertDemo](SwiftUIAlertDemo)
 
 
 ## License
