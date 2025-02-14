@@ -163,7 +163,7 @@ You can handle multiple alerts directly on your ViewModel.
 
 
 ## 🧰 Demo Project
-Please, to clarify all your doubts you can see the dedicated Example Project [https://github.com/xxZap/SwiftUIAlertDemo](SwiftUIAlertDemo)
+Please, to clarify all your doubts you can see the dedicated Example Project [SwiftUIAlertDemo](https://github.com/xxZap/SwiftUIAlertDemo)
 
 
 ## License
