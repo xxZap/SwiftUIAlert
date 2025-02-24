@@ -65,6 +65,8 @@ struct MyView: View {
 
 This will get ugly really quickly if you're trying to add multiple `Alert`s on a view. Lots of `@State`s with `Alert`s scattered all around your view 💩
 
+It is also really hard to uncouple business logic from the views since alert management is mainly inside the view, violating all the design patterns and the single responsibility principle.
+
 
 ## ✏️ How SwiftUIAlert works
 Simply register an `AlertController` instance on the root of a navigation. This will ensure an `@Environment` accessibility to all of the subviews all along the same navigation.
